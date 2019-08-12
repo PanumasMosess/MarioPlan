@@ -4,7 +4,6 @@ import { connect } from "react-redux";
 
 import SignedInLinks from "./SignedInLinks";
 import SignedOutLinks from "./SignedOutLink";
-import { log } from "util";
 
 const Navbar = props => {
   const { auth, profile } = props;
